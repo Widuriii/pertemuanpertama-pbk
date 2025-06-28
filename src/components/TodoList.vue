@@ -158,36 +158,3 @@ const updateTodo = async (todo) => {
 onMounted(loadTodos);
 </script>
 
-<style scoped>
-.todo-app {
-  max-width: 400px;
-  margin: auto;
-  font-family: Arial, sans-serif;
-}
-input[type="text"],
-input[type="checkbox"],
-input {
-  padding: 6px;
-  margin-right: 6px;
-}
-button {
-  padding: 6px 10px;
-  margin-left: 5px;
-  cursor: pointer;
-}
-ul {
-  list-style: none;
-  padding-left: 0;
-}
-li {
-  display: flex;
-  align-items: center;
-  margin: 10px 0;
-}
-li span {
-  flex-grow: 1;
-  margin-left: 8px;
-  display: flex;
-  align-items: center;
-}
-</style>
